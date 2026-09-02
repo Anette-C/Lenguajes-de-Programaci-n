@@ -1,0 +1,3 @@
+#racket
+
+(define (value-of) e p )
