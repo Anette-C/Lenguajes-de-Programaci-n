@@ -1,0 +1,3 @@
+Corre las dos versiones con 20 y luego con 25, y compara con la tabla. Uno de los cuatro números no coincide, y nadie se queja. ¿Qué pasó, y qué se gana a cambio de que pase?
+En Racket si da el número exacto pero en c++ en las dos versiones iterativa y recursiva no da el resultado exacto ya que 
+el tipo de valor de uint64_t es de 64 bits exactos y al poner el factorial de 25 sobrepasa la memoria, asi que 20 es el valor maximo que se puede poner para ese tipo de dato, con esto ganamos alinearnos perfectamento con la arquitectura fisica del hardware y garantizar la velocidad con la que se resuelve el calculo en cambio en racket si da un valor exacto pero requiere un mayor procesamiento.
